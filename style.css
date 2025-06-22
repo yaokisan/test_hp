@@ -180,7 +180,7 @@ header nav ul li a:hover {
 }
 
 .icon-set::before {
-    content: "✨"; /* Placeholder unicode character */
+    content: "🌸"; /* Placeholder unicode character - Changed to cherry blossom for hair set */
 }
 
 /* Gallery Section */

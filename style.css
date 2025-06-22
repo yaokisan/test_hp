@@ -141,6 +141,48 @@ header nav ul li a:hover {
     margin-bottom: 15px;
 }
 
+.service-item p.price {
+    font-weight: bold;
+    color: #a87e6f;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.service-item i {
+    font-size: 3em;
+    color: #a87e6f;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    /* Placeholder for actual icons, e.g., from Font Awesome */
+    /* For demonstration, we'll just make it a placeholder circle or box if no icon library is used */
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #f0e6e2;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #a87e6f;
+}
+
+/* Example icon classes - these would be replaced by actual icon library usage */
+.icon-cut::before {
+    content: "✂️"; /* Placeholder unicode character */
+}
+
+.icon-color::before {
+    content: "🎨"; /* Placeholder unicode character */
+}
+
+.icon-perm::before {
+    content: "💈"; /* Placeholder unicode character */
+}
+
+.icon-set::before {
+    content: "✨"; /* Placeholder unicode character */
+}
+
 /* Gallery Section */
 .gallery {
     padding: 80px 0;
